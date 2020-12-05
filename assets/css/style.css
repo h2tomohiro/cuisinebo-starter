@@ -135,6 +135,68 @@ header {
   background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
 }
 
+.message {
+  padding-top: 96px;
+  padding-bottom: 100px;
+  color: black;
+}
+.message__body {
+  text-align: center;
+  color: black;
+}
+.message__body-title {
+  font-size: 36px;
+  color: black;
+  letter-spacing: 0.2em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.message__body-p {
+  padding-top: 43px;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+}
+
+.footer__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1280px;
+  height: 400px;
+}
+.footer__nav {
+  display: flex;
+}
+.footer__nav-item {
+  padding-right: 12px;
+}
+.footer__nav-item a {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-decoration: none;
+  color: #444444;
+}
+.footer__cr {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 600px;
+  display: flex;
+  font-size: 14px;
+  line-height: 2.3;
+}
+.copyrights {
+  display: flex;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+}
+
 @media all and (max-width: 767px) {
   .header {
     position: fixed;
@@ -187,5 +249,52 @@ header {
   }
   .btn-gradient-radius:hover {
     background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+  }
+   .interview {
+    padding-top: 58px;
+  }
+  .interview__title {
+    padding-left: 0;
+    padding-bottom: 38px;
+    text-align: center;
+  }
+  .interview__body {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .interview__body-item {
+    margin-left: 0;
+    width: calc(50% - 1px);
+  }
+  .interview__body-item-texts {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 27px;
+    padding-left: 10px;
+  }
+  .interview__body-item-texts-title {
+    font-size: 11px;
+  }
+  .interview__body-item-texts-p {
+    padding-top: 4px;
+    font-size: 10px;
+  }
+  .footer__wrap {
+    flex-direction: column;
+    justify-content: center;
+    height: 68px;
+  }
+  .footer__nav-item {
+    padding-right: 8px;
+  }
+  .footer__nav-item:last-child {
+    padding-right: 0;
+  }
+  .footer__nav-item a {
+    font-size: 10px;
+  }
+  .footer__cr {
+    padding-top: 12px;
+    font-size: 10px;
   }
 }
