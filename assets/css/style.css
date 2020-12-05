@@ -147,15 +147,21 @@ header {
 .message__body-title {
   font-size: 36px;
   color: black;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   line-height: 1;
   text-transform: uppercase;
 }
 .message__body-p {
   padding-top: 43px;
   font-size: 14px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.06em;
   line-height: 1.5;
+  font-size: 20px;
+}
+
+.icon-big {
+  color: #FFC107;
+  font-size: 60px;
 }
 
 .footer{
