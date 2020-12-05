@@ -158,16 +158,18 @@ header {
   line-height: 1.5;
 }
 
-.footer__wrap {
+.footer{
+  background-color: #555;
+  color: #fff;
+}
+.footer__nav-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 30px 50px;
   max-width: 1280px;
-  height: 400px;
 }
 .footer__nav {
   display: flex;
@@ -180,7 +182,7 @@ header {
   letter-spacing: 0.1em;
   line-height: 1;
   text-decoration: none;
-  color: #444444;
+  color: #fff;
 }
 .footer__cr {
   box-sizing: border-box;
@@ -191,10 +193,11 @@ header {
   line-height: 2.3;
 }
 .copyrights {
-  display: flex;
   font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 1.5;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 @media all and (max-width: 767px) {
