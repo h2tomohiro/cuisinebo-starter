@@ -30,6 +30,12 @@
 	margin: 1% 0 1% 1.6%;
 }
 
+.col-img {
+	display: block;
+	float:left;
+	margin: 0%;
+}
+
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
@@ -112,6 +118,18 @@
 }
 
 .span-1-of-4 {
+	width: 23.8%;
+}
+
+.span-0-of-4 {
+	width: 25%;
+}
+
+.span-t-of-4 {
+	width: 23%;
+}
+
+.span-u-of-4 {
 	width: 18%;
 }
 

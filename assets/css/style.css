@@ -46,6 +46,9 @@ body {
     visibility: hidden;
 }
 
+.row {
+  margin: 0 60px;
+}
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -137,7 +140,7 @@ header {
 
 .message {
   padding-top: 96px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   color: black;
 }
 .message__body {
@@ -162,6 +165,10 @@ header {
 .icon-big {
   color: #FFC107;
   font-size: 60px;
+}
+
+.contact-form{
+  margin: 0 auto;
 }
 
 .footer{
@@ -198,6 +205,33 @@ header {
   font-size: 14px;
   line-height: 2.3;
 }
+.city_body {
+  display: flex;
+}
+.col.span-u-of-4.box {
+  margin-left: 60px;
+}
+.city_body h3 {
+  padding: 10px 0;
+}
+
+.city-feature {
+  padding: 5px;
+}
+
+.icon-small {
+ color: #FFC107;
+ padding-right: 8px;
+}
+
+.city-feature a {
+ color: #FFC107;
+}
+
+.ion-ios-person {
+  padding-left: 2px;
+}
+
 .copyrights {
   font-size: 14px;
   letter-spacing: 0.2em;
@@ -205,6 +239,7 @@ header {
   text-align: center;
   padding-bottom: 20px;
 }
+
 
 @media all and (max-width: 767px) {
   .header {
