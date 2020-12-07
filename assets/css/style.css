@@ -48,10 +48,10 @@ body {
 .row {
   margin: 0 60px;
 }
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
-
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
@@ -118,16 +118,16 @@ header {
   text-transform: uppercase;
 }
 .mv__texts-title {
-  font-size: 28px;
+  font-size: 42px;
   letter-spacing: 0.2em;
   line-height: 1.5;
 }
 .btn-gradient-radius {
   display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 18px;
+  margin-top: 20px;
   padding: 7px 20px;
-  border-radius: 25px;
+  border-radius: 16px;
   text-decoration: none;
   color: #FFF;
   background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
@@ -137,6 +137,9 @@ header {
   background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
 }
 
+/* ----------------------------------------------- */
+/* GET FOOD FAST — NOT FAST FOOD*/
+/* ----------------------------------------------- */
 .message {
   padding-top: 96px;
   padding-bottom: 30px;
@@ -161,22 +164,28 @@ header {
   font-size: 20px;
 }
 
+/* ----------------------------------------------- */
+/* HOW IT WORKS — SIMPLE AS 1, 2, 3*/
+/* ----------------------------------------------- */
+.section-app{
+  background-color: #ddd;
+  padding-bottom: 30px;
+}
+.app-img {
+  padding-top: 45px;
+}
+.app-button {
+  width: 118px;
+  height: auto;
+}
 .app-screen.js--wp-2 {
   width: 200px;
   height: auto;
 }
-
 .col.span-1-of-2.steps-box-1{
   text-align: right;
   padding-right: 60px;
 }
-
-.android-app {
-  width: 118px;
-  height: auto;
-  /* padding-top: 120px; */
-}
-
 .circle {
   height:50px;
   width:50px;
@@ -187,61 +196,33 @@ header {
   background:#FFC107;
   font-size:24px;
 }
-
-.works-step.clearfix {
-    overflow: hidden;
+.works-step {
+  overflow: hidden;
+  margin-top: 25px;
 }
 .circle__wrap {
-    float: left;
-    margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 .text__wrap {
-    overflow: hidden;
+  overflow: hidden;
+  margin-right: 40px;
 }
 .text {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
-.col.span-1-of-2.steps-box {
-  padding-top: 50px;
-}
-
-
 .col.span-1-of-2.steps-box p{
   display: inline-block;
 }
-
-.customers__body-title {
-  font-size: 36px;
-  color: white;
-  letter-spacing: 0.1em;
-  line-height: 1;
-  text-transform: uppercase;
+.section-plans.js--section-plans{
+  background-color: #e9e9e9;
+  padding-bottom: 80px;
 }
-
-.col.span-1-of-3.cus{
-  color: white;
-}
-
 .col.span-1-of-3 img{
   border-radius: 50%;
   width:  60px;
   height: 60px;
 }
-
-.plan-price {
-  color: #FFC107;
-  font-size: 60px;
-}
-
-.plan-price span{
-  color: #FFC107;
-  font-size: 24px;
-}
-
-.plan-price-meal{
-  padding: 12px 0;
-}
-
 .btn.btn-ghost{
   display: inline-block;
   font-size: 16px;
@@ -253,7 +234,104 @@ header {
   background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
   transition: .4s;
 }
+ul li{
+  list-style: none;
+  padding: 8px 0;
+}
+.section-plans.js--section-plans{
+  background-color: #e9e9e9;
+  padding-bottom: 80px;
+}
+.icon-big {
+  color: #FFC107;
+  font-size: 60px;
+}
+.contact-form{
+  margin: 0 auto;
+}
 
+/* ----------------------------------------------- */
+/* WE'RE CURRENTLY IN THESE CITIES */
+/* ----------------------------------------------- */
+.section-city {
+  padding-bottom: 80px;
+}
+.city_body {
+  display: flex;
+}
+.col.span-u-of-4.box {
+  margin-left: 60px;
+}
+.city_body h3 {
+  padding: 10px 0;
+}
+.city-feature {
+  padding: 5px;
+}
+.icon-small {
+ color: #FFC107;
+ padding-right: 8px;
+}
+.city-feature a {
+ color: #FFC107;
+}
+.ion-ios-person {
+  padding-left: 2px;
+}
+
+/* ----------------------------------------------- */
+/* OUR CUSTOMERS CAN'T LIVE WITHOUT US */
+/* ----------------------------------------------- */
+
+.customers__body-title {
+  font-size: 36px;
+  color: white;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.section-customers {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    background-attachment: fixed;
+}
+.col.span-1-of-3.customer{
+  color: white;
+  padding: 0 30px;
+}
+
+/* ----------------------------------------------- */
+/* START EATING HEALTHY TODAY*/
+/* ----------------------------------------------- */
+
+.col.span-1-of-3.health{
+  padding: 20px;
+  margin-left: 75px;
+  border: solid 1px #ddd;
+  border-left:solid 1px #ddd;
+  width: 300px;
+  height: 420px;
+  background-color: white;
+}
+.plan-price {
+  color: #FFC107;
+  font-size: 60px;
+}
+.plan-price span{
+  color: #FFC107;
+  font-size: 24px;
+}
+.plan-price-meal{
+  padding: 12px 0;
+}
+
+/* ----------------------------------------------- */
+/* WE'RE HAPPY TO HEAR FROM YOU*/
+/* ----------------------------------------------- */
 .button{
   display: inline-block;
   font-size: 16px;
@@ -266,54 +344,29 @@ header {
   border: 1px solid #FFC107;
   transition: .4s;
 }
-ul li{
-  list-style: none;
-  padding: 8px 0;
-}
 
-.section-plans.js--section-plans{
-  background-color: #e9e9e9;
-  padding-bottom: 80px;
-}
 .form__wrap {
   margin-left: 250px;
 }
-.col.span-1-of-3.health{
-  padding: 20px;
-  margin-left: 75px;
-  border: solid 1px #ddd;
-  border-left:solid 1px #ddd;
-  width: 300px;
-  height: 420px;
-  background-color: white;
-}
-
 .placeholder {
   position: relative;
-  padding: 0.1em;
+  padding: 0.13em;
 }
-
 textarea {
   resize: none;
-  width:375px;
+  width:380px;
   height:100px;
 }
-
 .width-list {
-  width: 375px;
-  padding-left: 0.2em;
+  width: 380px;
+  padding: 0.13em;
 }
 
-.icon-big {
-  color: #FFC107;
-  font-size: 60px;
-}
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
 
-.contact-form{
-  margin: 0 auto;
-}
-
-.footer{
+.footer {
   background-color: #555;
   color: #fff;
 }
@@ -347,152 +400,10 @@ textarea {
   font-size: 14px;
   line-height: 2.3;
 }
-.city_body {
-  display: flex;
-}
-.col.span-u-of-4.box {
-  margin-left: 60px;
-}
-.city_body h3 {
-  padding: 10px 0;
-}
-
-.city-feature {
-  padding: 5px;
-}
-
-.icon-small {
- color: #FFC107;
- padding-right: 8px;
-}
-
-.city-feature a {
- color: #FFC107;
-}
-
-.ion-ios-person {
-  padding-left: 2px;
-}
-
-.section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 60vh;
-    background-attachment: fixed;
-}
-
 .copyrights {
   font-size: 14px;
   letter-spacing: 0.2em;
   line-height: 1.5;
   text-align: center;
   padding-bottom: 20px;
-}
-
-
-
-
-@media all and (max-width: 767px) {
-  .header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-  }
-  .header__wrap {
-    padding-right: 23px;
-    padding-left: 10px;
-    height: 50px;
-  }
-  .header__logo {
-    width: 50px;
-  }
-  .header__nav {
-    display: none;
-  }
-  .header__navsp {
-    position: relative;
-    display: block;
-    width: 20px;
-    height: 20px;
-  }
-  .mv {
-    width: 100%;
-    height: 525px;
-    background-image: url(../img/mv_sp.png);
-  }
-  .mv__texts {
-    position: absolute;
-    top: 90px;
-    left: 27px;
-    color: #fff;
-  }
-  .mv__texts-title {
-    font-size: 20px;
-  }
-  .btn-gradient-radius {
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
-    padding: 7px 20px;
-    border-radius: 25px;
-    text-decoration: none;
-    color: #FFF;
-    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
-    transition: .4s;
-  }
-  .btn-gradient-radius:hover {
-    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
-  }
-   .interview {
-    padding-top: 58px;
-  }
-  .interview__title {
-    padding-left: 0;
-    padding-bottom: 38px;
-    text-align: center;
-  }
-  .interview__body {
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .interview__body-item {
-    margin-left: 0;
-    width: calc(50% - 1px);
-  }
-  .interview__body-item-texts {
-    padding-top: 15px;
-    padding-right: 10px;
-    padding-bottom: 27px;
-    padding-left: 10px;
-  }
-  .interview__body-item-texts-title {
-    font-size: 11px;
-  }
-  .interview__body-item-texts-p {
-    padding-top: 4px;
-    font-size: 10px;
-  }
-  .footer__wrap {
-    flex-direction: column;
-    justify-content: center;
-    height: 68px;
-  }
-  .footer__nav-item {
-    padding-right: 8px;
-  }
-  .footer__nav-item:last-child {
-    padding-right: 0;
-  }
-  .footer__nav-item a {
-    font-size: 10px;
-  }
-  .footer__cr {
-    padding-top: 12px;
-    font-size: 10px;
-  }
 }

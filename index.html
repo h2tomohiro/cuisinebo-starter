@@ -47,7 +47,7 @@
         </div>
     </header>
 
-    <div class="section-features js--section-features" id="features">
+    <section class="section-features js--section-features" id="features">
         <div class="message">
             <div class="message__body">
                 <h2 class="message__body-title">Get food fast &mdash; not fast food</h2>
@@ -88,7 +88,7 @@
                 </p>
             </div>
         </div>
-        <div style="padding: 80px;">
+        <div style="padding-top: 80px;">
             <div class="col-img span-0-of-4 box">
                 <img src="assets/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
             </div>
@@ -114,7 +114,7 @@
                 <img src="assets/img/8.jpg" alt="Granola with cherries and strawberries">
             </div>
         </div>
-    </div>
+    </section>
 
     <section class="section-app">
         <div class="message">
@@ -127,7 +127,7 @@
                 <img src="assets/img/app-iPhone.png" alt="Cuisinebo app on iPhone" class="app-screen js--wp-2">
             </div>
             <div class="col span-1-of-2 steps-box">
-                <div class="works-step clearfix">
+                <div class="works-step">
                     <div class="circle__wrap">
                         <p class="circle">1</p>
                     </div>
@@ -135,7 +135,7 @@
                         <p class="text">Choose the subscription plan that best fits your needs and sign up today.</p>
                     </div>
                 </div>
-                <div class="works-step clearfix">
+                <div class="works-step">
                     <div class="circle__wrap">
                         <p class="circle">2</p>
                     </div>
@@ -143,6 +143,7 @@
                         <p class="text">Order your delicious meal using our mobile app or website. Or you can even call us!</p>
                     </div>
                 </div>
+                <div class="works-step">
                     <div class="circle__wrap">
                         <p class="circle">3</p>
                     </div>
@@ -150,13 +151,15 @@
                         <p class="text">Enjoy your meal after less than 20 minutes. See you the next time!</p>
                     </div>
                 </div>
-                <a href="#" class="btn-app"><img src="assets/img/download-app.svg" width="135px" height="40px" alt="App Store Button"></a>
-                <a href="#" class="btn-app"><img src="assets/img/download-app-android.png" alt="Play Store Button" class="android-app" ></a>
+                <div class="app-img">
+                    <a href="#" class="btn-app"><img src="assets/img/download-app.svg" width="135px" height="40px" alt="App Store Button"></a>
+                    <a href="#" class="btn-app"><img src="assets/img/download-app-android.png" alt="Play Store Button" class="app-button" ></a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="section-app">
+    <section class="section-city">
         <div class="message">
             <div class="message__body">
                 <h2 class="message__body-title">We're currently in these cities</h2>
@@ -232,26 +235,26 @@
         </div>
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-customers">
         <div class="message">
             <div class="message__body">
                 <h2 class="customers__body-title">Our customers can't live without us</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col span-1-of-3 cus">
+            <div class="col span-1-of-3 customer">
                 <blockquote>
                     Cuisinebo is just awesome! I just launched a startup which leaves me with no time for cooking, so Cuisinebo is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
                     <br><br><cite><img src="assets/img/customer-1.jpg">Alberto Duncan</cite>
                 </blockquote>
             </div>
-            <div class="col span-1-of-3 cus">
+            <div class="col span-1-of-3 customer">
                 <blockquote>
                     Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
                     <br><br><cite><img src="assets/img/customer-2.jpg">Joana Silva</cite>
                 </blockquote>
             </div>
-            <div class="col span-1-of-3 cus">
+            <div class="col span-1-of-3 customer">
                 <blockquote>
                     I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Cuisinebo. Best food delivery service in the Bay Area. Keep up the great work!
                     <br><br><cite><img src="assets/img/customer-3.jpg">Milton Chapman</cite>
@@ -286,7 +289,6 @@
                     <hr>
                     <div>
                         <a href="#" class="btn btn-ghost">Sign up now</a>
-                        <!-- <a href="#" class="btn btn-full">Sign up now</a> -->
                     </div>
                 </div>
             </div>
@@ -331,7 +333,6 @@
                     </div>
                     <hr>
                     <div>
-                        <!-- <a href="#" class="btn btn-ghost">Sign up now</a> -->
                         <a href="#" class="btn btn-ghost">Sign up now</a>
                     </div>
                 </div>
@@ -405,6 +406,7 @@
             </form>
         </div>
     </section>
+
     <footer class="footer">
         <div class="footer__nav-wrap">
             <div class="footer__nav">
@@ -445,7 +447,6 @@
             <p>This webpage is for you! So go and do whatever you want with it and have fun.</p>
             <p>Build with <i class="ion-ios-heart" style="color: #ea0000; padding: 0 3px;"></i> in the beautiful city of Vancouver, Canada, December 2020.</p>
         </div>
-
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
